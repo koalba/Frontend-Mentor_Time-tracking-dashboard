@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container d-grid">
+        <div class="user">
+          <div class="user__info d-flex">
+            <div class="user__icon">
+              <img src="images/image-jeremy.png" alt="Jeremy Robson" />
+            </div>
+            <div class="user__text">
+              <p class="text--small">Report for</p>
+              <h1 class="text--med">Jeremy Robson</h1>
+            </div>
+          </div>
+          <ul class="user__nav d-flex">
+            <li class="user-nav__item" onclick="changeTime(this)">Daily</li>
+            <li
+              class="user-nav__item user-nav__item--active"
+              onclick="changeTime(this)"
+            >
+              Weekly
+            </li>
+            <li class="user-nav__item" onclick="changeTime(this)">Monthly</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    Report for Jeremy Robson Daily Weekly Monthly Work
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://koalba.netlify.app/">Alba García</a>.
+    </div>
+    <script type="text/javascript" src="js/globalVariables.js"></script>
+    <script type="text/javascript" src="js/button.js"></script>
+    <script type="text/javascript" src="js/time-card.js"></script>
+  </body>
+</html>
