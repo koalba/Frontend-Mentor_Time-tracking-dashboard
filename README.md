@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Check the solution!](https://www.frontendmentor.io/solutions/time-tracking-dashboard-using-css-and-javascript-fSZgoCT5d)
+- Live Site URL: [Check the Live Site!](https://timetrackingdashboard-albag.netlify.app/)
 
 ## My process
 
