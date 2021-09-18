@@ -25,8 +25,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./final/Final_Desktop_Capture.png)
-![](./final/Final_Tablet_Capture.png)
-![](./final/Final_Mobile_Capture.png)
 
 ### Links
 
